@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Icyplay" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Set the status bar color -->
+        <item name="android:statusBarColor">@color/customStatusBarColor</item>
+        <!-- Set the status bar icons/text color to gray -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowSplashScreenBackground">@color/splashScreenBackground</item>
+    </style>
+
+</resources>
